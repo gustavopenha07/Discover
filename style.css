@@ -26,6 +26,7 @@
 
 body {
     background: var(--brg-url) no-repeat top center/cover;
+    height: 100%;
 }
 
 body * {
@@ -34,14 +35,16 @@ body * {
 }
 
 #container {
-    width: 360px;
-    margin: 56px auto 0px;
+    width: 100%;
+    max-width: 588px;
+    margin: 56px auto 0;
+    padding: 0 24px;
 }
 
 /*profile*/
 #profile {
     text-align: center;
-    padding: 24px
+    padding: 24px;
 }
 
 #profile img {
